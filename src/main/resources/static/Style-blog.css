@@ -1,0 +1,102 @@
+
+
+/* CARDS */
+
+.container__cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+}
+
+.card {
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.6);
+    background: linear-gradient(to bottom, #559ff9, #6e3f8d, #af3d55);
+    border:none;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 300ms;
+    font-family:serif;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card:hover .cover__card img {
+    transform: scale(1.07);
+}
+
+.cover__card {
+    width: 100%;
+    height: 180px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.cover__card img {
+    width: 110%;
+    transition: all 300ms;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: antiquewhite;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.card hr {
+    margin-top: 30px;
+    border: none;
+    height: 0.2px;
+    background: #41414138;
+}
+
+.footer__card {
+    margin-top: 10px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#message{
+    text-color: black;
+    font-size: 18px;
+}
+
+/* Card Button */
+.footer__card button {
+    font-family:sans-serif;
+    color: black;
+    border-radius: 10px;
+    font-size: 0.47cm;
+    background-color: antiquewhite;
+}
+
+button.btn.btn-dark:hover {
+    transition: all 1.2s;
+    background:  #0e1a3c;
+
+}
+
+/* CARDS END */
+
